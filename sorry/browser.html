@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We're Sorry - Diary | TinagritProject</title>
+</head>
+<body>
+    <div id="main">
+        <div id="title-ff">
+            <p unselectable="on">TINAGRIT</p>
+            <p unselectable="on">PROJECT</p>
+        </div>
+        <div id="content-ff">
+            <h1>We're sorry, but we don't support the browser you're using</h1>
+            <p>You are probably either using an older version of a browser,
+                or have an unsupported one. We're so sorry to say that it 
+                is quite challenging to add support for every browser to 
+                this multifunctional website by one developer.</p>
+            <p>We apologize. Please consider using Google Chrome
+                or Safari to access TinagritProject's website</p>
+        </div>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Ubuntu',system-ui;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        #main {
+            margin-top: 50px;
+            width: 90%;
+            max-width: 400px;
+        }
+        #main>#title-ff>p {
+            font-size: 30px;
+            margin: 0;
+            -webkit-user-select: none;    
+            -moz-user-select: none; 
+            -ms-user-select: none; 
+            user-select: none; 
+        }
+        #main>#title-ff {
+            border: 1px solid white;
+            padding: 5px;
+            width: 130px;
+        }
+        #main>#content-ff>p {
+            font-size: 25px;
+        }
+    </style>
+</body>
+</html>

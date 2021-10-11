@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;700&family=IBM+Plex+Sans+Thai:wght@300;400;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body,* {
+    margin: 0;
+    padding: 0;
+}
+#pagecontent {
+    background-color: white;
+}
+.shrinksm,.shrinklg {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+}
+
+.shrinksm {
+    max-width: 600px;
+}
+
+.shrinklg {
+    max-width: 1200px;
+}
+
+.shrink-tb {
+    margin-top: 20px;
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;700&family=IBM+Plex+Sans+Thai:wght@300;400;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
+h1,h2,h3,h4,h5,h6,blockquote,a,button,input[type=submit],th,.template__anno>div,.ibm {
+    font-family: 'IBM Plex Sans','IBM Plex Sans Thai', sans-serif;
+}
+p,span,ul,ol,td {
+    font-family: 'IBM Plex Sans','IBM Plex Sans Thai Looped',sans-serif;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #121212;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:disabled {
+    background-color: #999999;
+    cursor: no-drop;
+    cursor: not-allowed;
+}
+
+.udl {
+    text-decoration: underline;
+}
+
+.template.headerbtn {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.template.headerbtn>h1 {
+    display: inline
+}
+
+.template.headerbtn>.btn {
+    position: absolute;
+    right: 0;
+}
+
+.template.headerbtn>.secbtn {
+    right: 120px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .template.headerbtn {
+        text-align: center;
+    }
+    .template.headerbtn>h1 {
+        display: block;
+    }
+    .template.headerbtn>.btn {
+        position: relative;
+    }
+    .template.headerbtn>.secbtn {
+        right: 0;
+    }
+}
